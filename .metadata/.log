@@ -1,0 +1,307 @@
+!SESSION 2016-07-27 11:15:40.363 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-27 11:15:53.343
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-07-27 11:15:57.845
+!MESSAGE Launcher not reached, starting launcher and retrying
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 10 2016-07-27 11:21:06.293
+!MESSAGE Updating the index from remote failed. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.downloadDatabase(IO.java:171)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory$UpdateIndexJob.run(ServerProblemsHistory.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-07-28 10:46:31.770 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-28 10:46:43.238
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 10 2016-07-28 10:51:55.703
+!MESSAGE Updating the index from remote failed. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.downloadDatabase(IO.java:171)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory$UpdateIndexJob.run(ServerProblemsHistory.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-07-28 10:59:10.183
+!MESSAGE Launcher not reached, starting launcher and retrying
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-28 11:00:49.462
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-28 11:00:49.463
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-28 11:00:49.623
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-28 11:00:49.624
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2016-07-29 11:38:10.330 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-29 11:38:25.040
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-07-29 11:38:29.656
+!MESSAGE Launcher not reached, starting launcher and retrying
+!SESSION 2016-07-29 11:41:23.239 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-29 11:41:36.206
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-07-29 11:42:22.401
+!MESSAGE Launcher not reached, starting launcher and retrying
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 10 2016-07-29 11:46:48.484
+!MESSAGE Updating the index from remote failed. ; version: 2.0.1.v20160605-1811
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:153)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.downloadDatabase(IO.java:171)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerProblemsHistory$UpdateIndexJob.run(ServerProblemsHistory.java:280)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-29 11:54:18.857
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-29 11:54:18.858
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-29 12:21:53.660
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-07-29 12:21:53.661
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 12:42:12.876
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49771 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-302683111\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49771 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-302683111\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 12:44:24.560
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49773 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--223314084\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49773 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--223314084\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 12:46:48.356
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49775 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1119675760\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49775 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1119675760\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 12:50:03.541
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49825 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1319957363\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49825 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1319957363\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 12:52:39.980
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49836 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1694135798\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49836 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1694135798\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 13:00:42.223
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49844 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1132367540\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49844 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1132367540\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 13:00:55.207
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49846 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1312809317\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49846 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1312809317\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2016-07-29 13:01:33.797
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar D:\Raghu\Stock Accounting\bin C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49848 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1597400715\testng-customsuite.xml
+java -ea -classpath C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:D:\Raghu\Stock Accounting\bin:C:\Users\user\Downloads\selenium-server-standalone-2.53.0.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\jcommander.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\bsh-2.0b4.jar:C:\Users\user\.p2\pool\plugins\org.testng.eclipse_6.9.11.201604020423\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49848 -protocol json -d D:\Raghu\Stock Accounting\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1597400715\testng-customsuite.xml
+!SESSION 2016-08-02 12:15:09.350 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-02 12:15:23.615
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-08-02 12:16:21.890
+!MESSAGE Launcher not reached, starting launcher and retrying
+
+!ENTRY org.eclipse.jface.text 2 0 2016-08-02 12:53:05.949
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-08-02 12:53:05.949
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-08-02 12:56:24.063
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-08-02 12:56:24.063
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2016-08-08 11:13:56.991 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\Raghu -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-08 11:14:19.526
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY de.yatta.eclipse.launcher.client 1 0 2016-08-08 11:15:27.609
+!MESSAGE Launcher not reached, starting launcher and retrying
